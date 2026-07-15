@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.pyc
+diagnoser/diagnosis_notes.jsonl

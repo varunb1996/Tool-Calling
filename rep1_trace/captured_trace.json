@@ -1,0 +1,217 @@
+{
+  "request_1": {
+    "model": "llama-3.3-70b-versatile",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I spend 5 hours a week on manual weekly reporting. If I automate it over a 6 week pilot and my hourly rate is 40, how much time and money would that save? Use the tool."
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "j4mped9yg",
+            "function": {
+              "arguments": "{\"hourly_rate\":40,\"hours_per_week\":5,\"weeks\":6}",
+              "name": "estimate_time_saved"
+            },
+            "type": "function"
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "j4mped9yg",
+        "content": "{\"total_hours_saved\": 30, \"total_value_saved\": 1200, \"currency_note\": \"same currency as hourly_rate\"}"
+      }
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "estimate_time_saved",
+          "description": "Calculate the hours and money saved over a period once a manual task is automated. Use this whenever the user gives a per-week time cost for a task and asks about savings, ROI, or payback from automating it.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "hours_per_week": {
+                "type": "number",
+                "description": "Hours currently spent on the manual task each week, e.g. 5.5"
+              },
+              "weeks": {
+                "type": "integer",
+                "description": "Number of weeks the automation runs for, e.g. 6"
+              },
+              "hourly_rate": {
+                "type": "number",
+                "description": "The person's fully-loaded hourly cost in local currency, e.g. 40"
+              }
+            },
+            "required": [
+              "hours_per_week",
+              "weeks",
+              "hourly_rate"
+            ]
+          }
+        }
+      }
+    ],
+    "tool_choice": "auto"
+  },
+  "response_1": {
+    "id": "chatcmpl-456d0ff3-411d-4fba-8f8e-9d77292e5d1d",
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "annotations": null,
+          "executed_tools": null,
+          "function_call": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "id": "j4mped9yg",
+              "function": {
+                "arguments": "{\"hourly_rate\":40,\"hours_per_week\":5,\"weeks\":6}",
+                "name": "estimate_time_saved"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      }
+    ],
+    "created": 1784093519,
+    "model": "llama-3.3-70b-versatile",
+    "object": "chat.completion",
+    "mcp_list_tools": null,
+    "service_tier": "on_demand",
+    "system_fingerprint": "fp_45180df409",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 412,
+      "total_tokens": 443,
+      "completion_time": 0.076695415,
+      "completion_tokens_details": null,
+      "prompt_time": 0.054215563,
+      "prompt_tokens_details": null,
+      "queue_time": 0.196050393,
+      "total_time": 0.130910978
+    },
+    "usage_breakdown": null,
+    "x_groq": {
+      "id": "req_01kxj45bqre3ebbnwmt50qndht",
+      "debug": null,
+      "seed": 1405651239,
+      "usage": null
+    }
+  },
+  "request_2": {
+    "model": "llama-3.3-70b-versatile",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I spend 5 hours a week on manual weekly reporting. If I automate it over a 6 week pilot and my hourly rate is 40, how much time and money would that save? Use the tool."
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "j4mped9yg",
+            "function": {
+              "arguments": "{\"hourly_rate\":40,\"hours_per_week\":5,\"weeks\":6}",
+              "name": "estimate_time_saved"
+            },
+            "type": "function"
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "j4mped9yg",
+        "content": "{\"total_hours_saved\": 30, \"total_value_saved\": 1200, \"currency_note\": \"same currency as hourly_rate\"}"
+      }
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "estimate_time_saved",
+          "description": "Calculate the hours and money saved over a period once a manual task is automated. Use this whenever the user gives a per-week time cost for a task and asks about savings, ROI, or payback from automating it.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "hours_per_week": {
+                "type": "number",
+                "description": "Hours currently spent on the manual task each week, e.g. 5.5"
+              },
+              "weeks": {
+                "type": "integer",
+                "description": "Number of weeks the automation runs for, e.g. 6"
+              },
+              "hourly_rate": {
+                "type": "number",
+                "description": "The person's fully-loaded hourly cost in local currency, e.g. 40"
+              }
+            },
+            "required": [
+              "hours_per_week",
+              "weeks",
+              "hourly_rate"
+            ]
+          }
+        }
+      }
+    ],
+    "tool_choice": "auto"
+  },
+  "response_2": {
+    "id": "chatcmpl-5d5f6608-df1b-4840-bede-cd193506fa28",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Based on the input provided, automating the manual weekly reporting task over a 6-week pilot period would save 30 hours of time and $1200 in labor costs, assuming a fully-loaded hourly rate of $40.",
+          "role": "assistant",
+          "annotations": null,
+          "executed_tools": null,
+          "function_call": null,
+          "reasoning": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1784093520,
+    "model": "llama-3.3-70b-versatile",
+    "object": "chat.completion",
+    "mcp_list_tools": null,
+    "service_tier": "on_demand",
+    "system_fingerprint": "fp_dae98b5ecb",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 476,
+      "total_tokens": 522,
+      "completion_time": 0.154272038,
+      "completion_tokens_details": null,
+      "prompt_time": 0.042854473,
+      "prompt_tokens_details": null,
+      "queue_time": 0.051031806,
+      "total_time": 0.197126511
+    },
+    "usage_breakdown": null,
+    "x_groq": {
+      "id": "req_01kxj45c49e3ftgctexmakvw0p",
+      "debug": null,
+      "seed": 126797627,
+      "usage": null
+    }
+  }
+}

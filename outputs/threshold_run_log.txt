@@ -1,0 +1,53 @@
+Rep 3 threshold test — real run output (Groq / llama-3.3-70b-versatile)
+Run stopped partway through the 6-tool stage: hit Groq's on-demand daily
+token quota (100,000 TPD) after 2 queries into that stage. See
+groq.RateLimitError at the bottom. Everything above that is a genuine,
+unedited run.
+
+[2 tools] OK        expected='search_web'              picked='search_web'              query="What's the current pricing for the Claude API right now?"
+[2 tools] OK        expected='search_web'              picked='search_web'              query="What's the newest AI agent framework people are using in 2026?"
+[2 tools] OK        expected='search_web'              picked='search_web'              query="What's the going rate for a Tavily subscription right now?"
+[2 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 5 hours a week on manual reporting, over a 6 week pilot, at $40/hour - what's the savings?'
+[2 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 3 hours a week manually triaging support tickets, over a 4-week pilot, at $25/hour - what's the savings?'
+[2 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='How many hours would I save automating a 2 hour/week task for 12 weeks at $50/hour?'
+--- stage with 2 tools: 0/6 misroutes ---
+
+[3 tools] OK        expected='search_web'              picked='search_web'              query="What's the current pricing for the Claude API right now?"
+[3 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the newest AI agent framework people are using in 2026?"
+[3 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the going rate for a Tavily subscription right now?"
+[3 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 5 hours a week on manual reporting, over a 6 week pilot, at $40/hour - what's the savings?'
+[3 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 3 hours a week manually triaging support tickets, over a 4-week pilot, at $25/hour - what's the savings?'
+[3 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='How many hours would I save automating a 2 hour/week task for 12 weeks at $50/hour?'
+[3 tools] OK        expected='score_workflow'          picked='score_workflow'          query='Score this workflow: lead follow-up with frequency=4, pain=5, access=5, ai_fit=5, speed=4.'
+[3 tools] OK        expected='score_workflow'          picked='score_workflow'          query='Score this workflow: invoice processing with frequency=2, pain=5, access=2, ai_fit=3, speed=2.'
+--- stage with 3 tools: 2/8 misroutes ---
+
+[4 tools] OK        expected='search_web'              picked='search_web'              query="What's the current pricing for the Claude API right now?"
+[4 tools] OK        expected='search_web'              picked='search_web'              query="What's the newest AI agent framework people are using in 2026?"
+[4 tools] OK        expected='search_web'              picked='search_web'              query="What's the going rate for a Tavily subscription right now?"
+[4 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 5 hours a week on manual reporting, over a 6 week pilot, at $40/hour - what's the savings?'
+[4 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 3 hours a week manually triaging support tickets, over a 4-week pilot, at $25/hour - what's the savings?'
+[4 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='How many hours would I save automating a 2 hour/week task for 12 weeks at $50/hour?'
+[4 tools] OK        expected='score_workflow'          picked='score_workflow'          query='Score this workflow: lead follow-up with frequency=4, pain=5, access=5, ai_fit=5, speed=4.'
+[4 tools] OK        expected='score_workflow'          picked='score_workflow'          query='Score this workflow: invoice processing with frequency=2, pain=5, access=2, ai_fit=3, speed=2.'
+[4 tools] OK        expected='save_diagnosis_note'     picked='save_diagnosis_note'     query='Please save a note for the hypothesis phase saying I need to add a measurable result clause.'
+[4 tools] OK        expected='save_diagnosis_note'     picked='save_diagnosis_note'     query='Record a note in the observation phase: user described stalling after picking a category, not a workflow.'
+--- stage with 4 tools: 0/10 misroutes ---
+
+[5 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the current pricing for the Claude API right now?"
+[5 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the newest AI agent framework people are using in 2026?"
+[5 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the going rate for a Tavily subscription right now?"
+[5 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 5 hours a week on manual reporting, over a 6 week pilot, at $40/hour - what's the savings?'
+[5 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='I spend 3 hours a week manually triaging support tickets, over a 4-week pilot, at $25/hour - what's the savings?'
+[5 tools] OK        expected='estimate_time_saved'     picked='estimate_time_saved'     query='How many hours would I save automating a 2 hour/week task for 12 weeks at $50/hour?'
+[5 tools] OK        expected='score_workflow'          picked='score_workflow'          query='Score this workflow: lead follow-up with frequency=4, pain=5, access=5, ai_fit=5, speed=4.'
+[5 tools] OK        expected='score_workflow'          picked='score_workflow'          query='Score this workflow: invoice processing with frequency=2, pain=5, access=2, ai_fit=3, speed=2.'
+[5 tools] OK        expected='save_diagnosis_note'     picked='save_diagnosis_note'     query='Please save a note for the hypothesis phase saying I need to add a measurable result clause.'
+[5 tools] OK        expected='save_diagnosis_note'     picked='save_diagnosis_note'     query='Record a note in the observation phase: user described stalling after picking a category, not a workflow.'
+[5 tools] OK        expected='lookup_tool_info'        picked='lookup_tool_info'        query='What does Zapier actually do?'
+[5 tools] OK        expected='lookup_tool_info'        picked='lookup_tool_info'        query='Tell me about n8n.'
+--- stage with 5 tools: 3/12 misroutes ---
+
+[6 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the current pricing for the Claude API right now?"
+[6 tools] MISROUTE  expected='search_web'              picked='<malformed_call>'        query="What's the newest AI agent framework people are using in 2026?"
+--- run stopped here: groq.RateLimitError 429, daily token quota (100,000 TPD) exhausted ---

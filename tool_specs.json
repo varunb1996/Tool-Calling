@@ -1,0 +1,151 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "search_web",
+      "description": "Search the live web for current, real-time information: recent tool releases, current pricing, current best practices, or anything that may have changed after this model's training cutoff. Do NOT use this for pure math or for information already given in the conversation.\nExample: query='pricing for Claude Opus 4.5 API' -> returns an answer string plus up to 5 titled web results with URLs and snippets.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "A focused search query, written like a search engine query, not a full sentence. Example: 'Tavily API free tier limits'."
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "estimate_time_saved",
+      "description": "Calculate hours and money saved over a period once a manual, repeated task is automated. Use this whenever the user gives a per-week time cost and asks about savings, ROI, or payback for automating a workflow. Do NOT use this for anything that requires looking up current information.\nExample: hours_per_week=5, weeks=6, hourly_rate=40 -> {'total_hours_saved': 30, 'total_value_saved': 1200}.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "hours_per_week": {
+            "type": "number",
+            "description": "Hours currently spent on the manual task each week, e.g. 5.5"
+          },
+          "weeks": {
+            "type": "integer",
+            "description": "Number of weeks the automation runs for, e.g. 6"
+          },
+          "hourly_rate": {
+            "type": "number",
+            "description": "The person's fully-loaded hourly cost in local currency, e.g. 40"
+          }
+        },
+        "required": [
+          "hours_per_week",
+          "weeks",
+          "hourly_rate"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "score_workflow",
+      "description": "Score a candidate workflow on 5 factors (frequency, pain, access, ai_fit, speed - each 1-5) to decide if it's worth piloting. Use this when the user is comparing or ranking multiple workflow ideas, not for a single already-chosen workflow's time savings.\nExample: frequency=4, pain=5, access=4, ai_fit=4, speed=3 -> {'total_score': 20, 'recommendation': 'strong candidate...'}",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "frequency": {
+            "type": "integer",
+            "description": "How often the task repeats, 1-5"
+          },
+          "pain": {
+            "type": "integer",
+            "description": "How painful/costly the task is, 1-5"
+          },
+          "access": {
+            "type": "integer",
+            "description": "How easy it is to reach real users of this workflow, 1-5"
+          },
+          "ai_fit": {
+            "type": "integer",
+            "description": "How well AI fits this task, 1-5"
+          },
+          "speed": {
+            "type": "integer",
+            "description": "How fast a proof could be built, 1-5"
+          }
+        },
+        "required": [
+          "frequency",
+          "pain",
+          "access",
+          "ai_fit",
+          "speed"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "save_diagnosis_note",
+      "description": "Save a short note about progress in a specific diagnosis phase, so the session can resume later. Use this when the user explicitly asks to save/record their progress.\nExample: phase='hypothesis', note='drafted first version, needs a measurable result clause' -> {'saved': True}",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "phase": {
+            "type": "string",
+            "description": "One of: observation, subject, evidence, causal_chain, hypothesis, stress_test, mvp_plan"
+          },
+          "note": {
+            "type": "string",
+            "description": "The note text to save"
+          }
+        },
+        "required": [
+          "phase",
+          "note"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "lookup_tool_info",
+      "description": "Look up information about a specific AI or automation tool or platform by name, such as what it does or how it works. Use this to find out about tools, platforms, or software.\nExample: tool_name='Zapier' -> {'description': 'No-code automation platform...'}",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "tool_name": {
+            "type": "string",
+            "description": "Name of the tool/platform, e.g. 'n8n'"
+          }
+        },
+        "required": [
+          "tool_name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "estimate_pricing_tier",
+      "description": "Estimate which pricing tier applies based on monthly active users of a workflow or product. Use this to estimate costs or pricing for a workflow at scale.\nExample: monthly_active_users=500 -> {'tier': 'starter'}",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "monthly_active_users": {
+            "type": "integer",
+            "description": "Expected monthly active users, e.g. 500"
+          }
+        },
+        "required": [
+          "monthly_active_users"
+        ]
+      }
+    }
+  }
+]
