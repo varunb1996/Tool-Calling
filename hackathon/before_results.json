@@ -1,0 +1,22 @@
+{
+  "query": "Search my email and calendar for anything related to the Q3 reporting automation project over the last year, and check the web for current no-code tools I could use - I need to scope my build brief.",
+  "tool_queries": {
+    "gmail": "Q3 reporting automation",
+    "calendar": "Q3 reporting automation",
+    "web": "best no-code workflow automation tools 2026"
+  },
+  "tokens": {
+    "system_prompt": 549,
+    "user_query": 41,
+    "search_gmail_naive": 24986,
+    "search_calendar_naive": 12661,
+    "search_web_naive": 7727,
+    "total_tool_output": 45374,
+    "total_payload": 45964
+  },
+  "counts": {
+    "emails_returned": 248,
+    "events_returned": 190,
+    "web_results_returned": 24
+  }
+}

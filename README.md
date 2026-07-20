@@ -1,12 +1,19 @@
-# Make the Diagnoser Stop Lying — Tool Calling Practice Set
+# Aarav's Diagnoser — Tool Calling + Token Optimization
 
-100xEngineers LLM Deep Dive · Tool Calling Practical.
+100xEngineers LLM Deep Dive. Two practice sets built on the same
+diagnoser agent, back to back:
 
-Traces how an LLM hands work to a deterministic tool without breaking it
-(Rep 1), implements that handover for real by connecting Aarav's workflow
-diagnoser to Tavily web search (Rep 2), then deliberately pushes the tool
-set further to find where `tool_choice="auto"` routing starts breaking
-(Rep 3).
+1. **Tool Calling Practical** — traces how an LLM hands work to a
+   deterministic tool without breaking it (Rep 1), implements that
+   handover for real by connecting Aarav's workflow diagnoser to Tavily
+   web search (Rep 2), then deliberately pushes the tool set further to
+   find where `tool_choice="auto"` routing starts breaking (Rep 3).
+2. **The Token Optimization Hackathon** — deliberately breaks the
+   diagnoser's token budget (bigger `search_web` results, new
+   `search_gmail`/`search_calendar` tools dumping raw data), then fixes
+   it with a keyword-only chunk → index → filter → pre-aggregate
+   pipeline, measured before/after with tiktoken. See
+   [hackathon/REPORT.md](hackathon/REPORT.md) for the full writeup.
 
 ## Structure
 
@@ -19,17 +26,31 @@ set further to find where `tool_choice="auto"` routing starts breaking
 │   └── trace.md              # Rep 1 deliverable: the written trace
 ├── diagnoser/
 │   ├── tools.py               # search_web, estimate_time_saved + Rep 3 tools, JSON specs
+│   ├── tools_naive.py         # hackathon BEFORE: deliberately wasteful search_web/gmail/calendar
 │   ├── system_prompt.py       # the diagnoser's 7-phase coaching system prompt
 │   ├── agent.py                # the tool-calling loop (tools=tools, tool_choice="auto", run_tools)
-│   └── cli.py                  # interactive REPL: python -m diagnoser.cli
+│   ├── cli.py                  # interactive REPL: python -m diagnoser.cli
+│   └── rag/                    # hackathon AFTER: the RAG-lite pipeline
+│       ├── data/gen_synthetic_data.py   # synthetic 2-year Gmail inbox + Calendar
+│       ├── chunk_data.py                # Step 1: chunk by year, verify no data loss
+│       ├── build_index.py               # Step 2: build index.json (metadata, no embeddings)
+│       ├── retrieve.py                  # Steps 3-4: keyword filter + pre-aggregate
+│       ├── chunks/                      # generated per-year chunk files
+│       └── index.json                   # generated index
 ├── outputs/
 │   ├── generate_before_after.py
 │   ├── before_after.md         # Rep 2 deliverable: hallucination vs. grounded answer
 │   ├── threshold_test.py       # Rep 3: runs a query battery against a growing tool set
 │   ├── threshold_run_log.txt   # raw run output
 │   └── failure_log.md          # Rep 3 deliverable: misroutes, threshold, hypothesis
+├── hackathon/
+│   ├── token_count.py          # shared tiktoken helper
+│   ├── measure_before.py       # runs naive tools, records BEFORE token counts
+│   ├── measure_after.py        # runs RAG tools, records AFTER token counts
+│   ├── before_results.json / after_results.json
+│   └── REPORT.md               # hackathon deliverable: before/after, index design, cost projection
 ├── tool_specs.json            # final JSON tool specs, standalone
-└── SUBMISSION.md              # checklist-to-file mapping
+└── SUBMISSION.md              # checklist-to-file mapping (tool-calling practice set)
 ```
 
 ## Setup
@@ -56,6 +77,17 @@ python -m outputs.generate_before_after
 
 # Rep 3 — run the tool-routing threshold experiment
 python -m outputs.threshold_test
+
+# Hackathon — regenerate synthetic Gmail/Calendar data
+python -m diagnoser.rag.data.gen_synthetic_data
+
+# Hackathon — build the RAG pipeline (chunk, then index)
+python -m diagnoser.rag.chunk_data
+python -m diagnoser.rag.build_index
+
+# Hackathon — measure BEFORE (naive tools) and AFTER (RAG pipeline)
+python -m hackathon.measure_before
+python -m hackathon.measure_after
 ```
 
 ## Submission Checklist
@@ -86,3 +118,37 @@ python -m outputs.threshold_test
 See [SUBMISSION.md](SUBMISSION.md) for the full checklist mapping and
 [outputs/failure_log.md](outputs/failure_log.md) for the complete Rep 3
 analysis.
+
+## Token Optimization Hackathon (Track B) — Submission Checklist
+
+Full writeup: [hackathon/REPORT.md](hackathon/REPORT.md)
+
+| Requirement | Where it is |
+|---|---|
+| App/repo link | This repo — `diagnoser/` (naive tools) + `diagnoser/rag/` (pipeline) |
+| BEFORE number | 45,964 tokens — [hackathon/before_results.json](hackathon/before_results.json) |
+| AFTER number + reduction factor | 3,922 tokens — **11.7x** payload / **13.6x** tool-output — [hackathon/after_results.json](hackathon/after_results.json) |
+| Index design | [diagnoser/rag/index.json](diagnoser/rag/index.json) — keys: `chunk_id`, `source`, `year`, `date_range`, `record_count`, `labels`, `participants`, `token_count`, `path` |
+| Cost projection | Both a realistic-usage and a daily-usage scenario, with an explicit volume-bar verdict, in [hackathon/REPORT.md](hackathon/REPORT.md#cost-projection) |
+
+### Notable findings
+
+- Gmail/Calendar data is synthetic (2 years, 248 emails + 190 events),
+  not real OAuth — matches the lecture's own substitution of Open-Meteo
+  for OpenWeatherMap to avoid auth friction; the point is the pipeline,
+  not the API plumbing.
+- Chunk-completeness was checked by record-ID set equality, not raw
+  token-sum equality — splitting one JSON array into six changes
+  bracket/comma overhead by a couple of tokens even with byte-identical
+  records, which would have made a strict token-sum assert a false alarm.
+- First retrieval pass over-matched (33 emails instead of 28) because a
+  single shared keyword ("automation") was enough to pull in an
+  unrelated AI-newsletter email. Fixed by requiring 2+ overlapping
+  keywords — the same "missing metadata key" lesson from the lecture,
+  found from the opposite direction.
+- At the diagnoser's actual (occasional) usage pattern, the dollar
+  savings don't clear the volume bar (~$37 one-time) — but at
+  daily-active-use volume they do (~$4,527/year), and the deeper
+  argument is that naive tools don't just get *expensive* as data grows,
+  they eventually hit the same hard context-overflow wall the lecture's
+  weather API did.

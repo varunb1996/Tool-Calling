@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "event_0151",
+    "date": "2025-01-14",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0075",
+    "date": "2025-01-18",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0098",
+    "date": "2025-01-25",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0028",
+    "date": "2025-01-27",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0048",
+    "date": "2025-01-30",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0150",
+    "date": "2025-02-01",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0055",
+    "date": "2025-02-23",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0005",
+    "date": "2025-02-27",
+    "title": "Weekly team standup",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0025",
+    "date": "2025-03-01",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0067",
+    "date": "2025-03-20",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0069",
+    "date": "2025-03-30",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0160",
+    "date": "2025-03-31",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0037",
+    "date": "2025-04-02",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0182",
+    "date": "2025-04-02",
+    "title": "Q3 reporting automation - client check-in",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0181",
+    "date": "2025-04-04",
+    "title": "Q3 reporting automation - process walkthrough with Priya",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0186",
+    "date": "2025-04-07",
+    "title": "Q3 reporting automation - process walkthrough with Priya",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0189",
+    "date": "2025-04-09",
+    "title": "Q3 reporting automation - build review",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0133",
+    "date": "2025-04-10",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0040",
+    "date": "2025-04-11",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0027",
+    "date": "2025-04-12",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0094",
+    "date": "2025-04-12",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0085",
+    "date": "2025-04-15",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0180",
+    "date": "2025-04-15",
+    "title": "Q3 reporting automation - demo day",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0188",
+    "date": "2025-04-15",
+    "title": "Q3 reporting automation - demo day",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0021",
+    "date": "2025-04-17",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0185",
+    "date": "2025-04-23",
+    "title": "Q3 reporting automation - client check-in",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0126",
+    "date": "2025-04-24",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0138",
+    "date": "2025-04-27",
+    "title": "Weekly team standup",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0026",
+    "date": "2025-04-28",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0183",
+    "date": "2025-05-01",
+    "title": "Q3 reporting automation - demo prep",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0184",
+    "date": "2025-05-12",
+    "title": "Q3 reporting automation - kickoff",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0049",
+    "date": "2025-05-22",
+    "title": "Weekly team standup",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0082",
+    "date": "2025-05-24",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0187",
+    "date": "2025-05-24",
+    "title": "Q3 reporting automation - demo prep",
+    "attendees": [
+      "aarav@company.com",
+      "priya.sharma@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Discussion of the Q3 reporting automation workflow, current bottlenecks, and build progress.",
+    "labels": [
+      "project:q3-reporting-automation"
+    ]
+  },
+  {
+    "id": "event_0023",
+    "date": "2025-05-25",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0024",
+    "date": "2025-06-05",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0077",
+    "date": "2025-06-27",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0120",
+    "date": "2025-06-27",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0132",
+    "date": "2025-07-03",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0163",
+    "date": "2025-07-11",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0011",
+    "date": "2025-07-16",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0018",
+    "date": "2025-07-19",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0039",
+    "date": "2025-07-19",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0078",
+    "date": "2025-08-02",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0103",
+    "date": "2025-08-02",
+    "title": "Weekly team standup",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0043",
+    "date": "2025-08-08",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0099",
+    "date": "2025-08-11",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0135",
+    "date": "2025-08-21",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0173",
+    "date": "2025-08-23",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0152",
+    "date": "2025-08-24",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0029",
+    "date": "2025-09-05",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0104",
+    "date": "2025-09-12",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0107",
+    "date": "2025-09-13",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0140",
+    "date": "2025-09-16",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0156",
+    "date": "2025-09-22",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0064",
+    "date": "2025-09-24",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0081",
+    "date": "2025-09-26",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0139",
+    "date": "2025-09-26",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0109",
+    "date": "2025-09-27",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0007",
+    "date": "2025-09-29",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0008",
+    "date": "2025-10-02",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0111",
+    "date": "2025-10-05",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0015",
+    "date": "2025-10-07",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0142",
+    "date": "2025-10-12",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0084",
+    "date": "2025-10-15",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0092",
+    "date": "2025-10-16",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0168",
+    "date": "2025-10-19",
+    "title": "Weekly team standup",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0022",
+    "date": "2025-10-25",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0141",
+    "date": "2025-10-25",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0144",
+    "date": "2025-10-26",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0059",
+    "date": "2025-10-27",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0154",
+    "date": "2025-11-01",
+    "title": "1:1 with manager",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0004",
+    "date": "2025-11-04",
+    "title": "Quarterly review",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0086",
+    "date": "2025-11-13",
+    "title": "Weekly team standup",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0134",
+    "date": "2025-11-19",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0089",
+    "date": "2025-11-24",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0110",
+    "date": "2025-11-25",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0093",
+    "date": "2025-12-07",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0158",
+    "date": "2025-12-07",
+    "title": "IT maintenance window",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0070",
+    "date": "2025-12-11",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0042",
+    "date": "2025-12-15",
+    "title": "AI tools demo webinar",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0100",
+    "date": "2025-12-17",
+    "title": "Sprint planning",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0047",
+    "date": "2025-12-23",
+    "title": "Coffee chat with new hire",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "event_0016",
+    "date": "2025-12-27",
+    "title": "Company all-hands",
+    "attendees": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "description": "Recurring internal meeting.",
+    "labels": [
+      "noise"
+    ]
+  }
+]

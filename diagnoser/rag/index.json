@@ -1,0 +1,145 @@
+[
+  {
+    "chunk_id": "calendar_2024",
+    "source": "calendar",
+    "year": "2024",
+    "date_range": {
+      "start": "2024-01-15",
+      "end": "2024-12-19"
+    },
+    "record_count": 65,
+    "labels": [
+      "noise"
+    ],
+    "participants": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "token_count": 4207,
+    "path": "chunks\\calendar_2024.json"
+  },
+  {
+    "chunk_id": "calendar_2025",
+    "source": "calendar",
+    "year": "2025",
+    "date_range": {
+      "start": "2025-01-14",
+      "end": "2025-12-27"
+    },
+    "record_count": 84,
+    "labels": [
+      "noise",
+      "project:q3-reporting-automation"
+    ],
+    "participants": [
+      "aarav@company.com",
+      "manager.singh@company.com",
+      "priya.sharma@company.com"
+    ],
+    "token_count": 5781,
+    "path": "chunks\\calendar_2025.json"
+  },
+  {
+    "chunk_id": "calendar_2026",
+    "source": "calendar",
+    "year": "2026",
+    "date_range": {
+      "start": "2026-01-19",
+      "end": "2026-07-20"
+    },
+    "record_count": 41,
+    "labels": [
+      "noise"
+    ],
+    "participants": [
+      "aarav@company.com",
+      "manager.singh@company.com"
+    ],
+    "token_count": 2657,
+    "path": "chunks\\calendar_2026.json"
+  },
+  {
+    "chunk_id": "gmail_2024",
+    "source": "gmail",
+    "year": "2024",
+    "date_range": {
+      "start": "2024-01-02",
+      "end": "2024-12-23"
+    },
+    "record_count": 90,
+    "labels": [
+      "noise"
+    ],
+    "participants": [
+      "digest@substack.com",
+      "hello@makerpad.co",
+      "hr@company.com",
+      "it-support@company.com",
+      "newsletter@aiweekly.dev",
+      "no-reply@linkedin.com",
+      "no-reply@zapier.com",
+      "priya.sharma@company.com",
+      "rahul.mehta@company.com",
+      "updates@n8n.io"
+    ],
+    "token_count": 8828,
+    "path": "chunks\\gmail_2024.json"
+  },
+  {
+    "chunk_id": "gmail_2025",
+    "source": "gmail",
+    "year": "2025",
+    "date_range": {
+      "start": "2025-01-02",
+      "end": "2025-12-26"
+    },
+    "record_count": 111,
+    "labels": [
+      "noise",
+      "project:q3-reporting-automation"
+    ],
+    "participants": [
+      "client.contact@bigclient.com",
+      "digest@substack.com",
+      "hello@makerpad.co",
+      "hr@company.com",
+      "it-support@company.com",
+      "manager.singh@company.com",
+      "newsletter@aiweekly.dev",
+      "no-reply@linkedin.com",
+      "no-reply@zapier.com",
+      "priya.sharma@company.com",
+      "rahul.mehta@company.com",
+      "updates@n8n.io"
+    ],
+    "token_count": 11570,
+    "path": "chunks\\gmail_2025.json"
+  },
+  {
+    "chunk_id": "gmail_2026",
+    "source": "gmail",
+    "year": "2026",
+    "date_range": {
+      "start": "2026-01-02",
+      "end": "2026-07-13"
+    },
+    "record_count": 47,
+    "labels": [
+      "noise"
+    ],
+    "participants": [
+      "digest@substack.com",
+      "hello@makerpad.co",
+      "hr@company.com",
+      "it-support@company.com",
+      "newsletter@aiweekly.dev",
+      "no-reply@linkedin.com",
+      "no-reply@zapier.com",
+      "priya.sharma@company.com",
+      "rahul.mehta@company.com",
+      "updates@n8n.io"
+    ],
+    "token_count": 4572,
+    "path": "chunks\\gmail_2026.json"
+  }
+]

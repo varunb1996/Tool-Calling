@@ -1,0 +1,519 @@
+[
+  {
+    "id": "email_0180",
+    "date": "2026-01-02",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "Reminder: submit your timesheet",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0163",
+    "date": "2026-01-11",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "New course: Prompt Engineering Masterclass",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0209",
+    "date": "2026-01-11",
+    "from": "priya.sharma@company.com",
+    "from_name": "Priya Sharma",
+    "subject": "New Zapier integration: connect 500+ apps",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0120",
+    "date": "2026-01-16",
+    "from": "rahul.mehta@company.com",
+    "from_name": "Rahul Mehta",
+    "subject": "Someone viewed your profile",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0011",
+    "date": "2026-01-17",
+    "from": "newsletter@aiweekly.dev",
+    "from_name": "AI Weekly",
+    "subject": "Team lunch RSVP",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0044",
+    "date": "2026-01-19",
+    "from": "updates@n8n.io",
+    "from_name": "n8n Updates",
+    "subject": "Team lunch RSVP",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0027",
+    "date": "2026-02-01",
+    "from": "hello@makerpad.co",
+    "from_name": "Makerpad",
+    "subject": "Company all-hands next Friday",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0204",
+    "date": "2026-02-02",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "Company all-hands next Friday",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0106",
+    "date": "2026-02-06",
+    "from": "digest@substack.com",
+    "from_name": "Substack Digest",
+    "subject": "New course: Prompt Engineering Masterclass",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0171",
+    "date": "2026-02-06",
+    "from": "newsletter@aiweekly.dev",
+    "from_name": "AI Weekly",
+    "subject": "Company all-hands next Friday",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0035",
+    "date": "2026-02-07",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "IT maintenance window this weekend",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0068",
+    "date": "2026-02-10",
+    "from": "updates@n8n.io",
+    "from_name": "n8n Updates",
+    "subject": "Reminder: submit your timesheet",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0173",
+    "date": "2026-02-11",
+    "from": "newsletter@aiweekly.dev",
+    "from_name": "AI Weekly",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0030",
+    "date": "2026-02-12",
+    "from": "updates@n8n.io",
+    "from_name": "n8n Updates",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0007",
+    "date": "2026-02-16",
+    "from": "newsletter@aiweekly.dev",
+    "from_name": "AI Weekly",
+    "subject": "New course: Prompt Engineering Masterclass",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0038",
+    "date": "2026-02-19",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "New course: Prompt Engineering Masterclass",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0045",
+    "date": "2026-02-23",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "New course: Prompt Engineering Masterclass",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0143",
+    "date": "2026-03-08",
+    "from": "updates@n8n.io",
+    "from_name": "n8n Updates",
+    "subject": "This week in no-code: top 10 tools",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0105",
+    "date": "2026-03-09",
+    "from": "rahul.mehta@company.com",
+    "from_name": "Rahul Mehta",
+    "subject": "Company all-hands next Friday",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0183",
+    "date": "2026-03-12",
+    "from": "digest@substack.com",
+    "from_name": "Substack Digest",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0058",
+    "date": "2026-03-14",
+    "from": "hello@makerpad.co",
+    "from_name": "Makerpad",
+    "subject": "Team lunch RSVP",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0107",
+    "date": "2026-03-30",
+    "from": "no-reply@zapier.com",
+    "from_name": "Zapier",
+    "subject": "New course: Prompt Engineering Masterclass",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0109",
+    "date": "2026-04-01",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "Your subscription renews soon",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0144",
+    "date": "2026-04-03",
+    "from": "no-reply@zapier.com",
+    "from_name": "Zapier",
+    "subject": "Weekend reading: the future of AI agents",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0137",
+    "date": "2026-04-05",
+    "from": "hello@makerpad.co",
+    "from_name": "Makerpad",
+    "subject": "Reminder: submit your timesheet",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0189",
+    "date": "2026-04-07",
+    "from": "digest@substack.com",
+    "from_name": "Substack Digest",
+    "subject": "Company all-hands next Friday",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0136",
+    "date": "2026-04-18",
+    "from": "updates@n8n.io",
+    "from_name": "n8n Updates",
+    "subject": "Reminder: submit your timesheet",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0113",
+    "date": "2026-04-20",
+    "from": "priya.sharma@company.com",
+    "from_name": "Priya Sharma",
+    "subject": "Reminder: submit your timesheet",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0210",
+    "date": "2026-05-02",
+    "from": "updates@n8n.io",
+    "from_name": "n8n Updates",
+    "subject": "Reminder: submit your timesheet",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0131",
+    "date": "2026-05-03",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0174",
+    "date": "2026-05-09",
+    "from": "hello@makerpad.co",
+    "from_name": "Makerpad",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0039",
+    "date": "2026-05-11",
+    "from": "priya.sharma@company.com",
+    "from_name": "Priya Sharma",
+    "subject": "Your subscription renews soon",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0186",
+    "date": "2026-05-19",
+    "from": "newsletter@aiweekly.dev",
+    "from_name": "AI Weekly",
+    "subject": "This week in no-code: top 10 tools",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0139",
+    "date": "2026-05-20",
+    "from": "digest@substack.com",
+    "from_name": "Substack Digest",
+    "subject": "Your weekly automation digest",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0191",
+    "date": "2026-05-22",
+    "from": "rahul.mehta@company.com",
+    "from_name": "Rahul Mehta",
+    "subject": "Reminder: submit your timesheet",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0076",
+    "date": "2026-05-23",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "Company all-hands next Friday",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0160",
+    "date": "2026-05-23",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "This week in no-code: top 10 tools",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0034",
+    "date": "2026-05-31",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "Check out this week's roundup of new AI tools and frameworks that shipped this week. From autonomous agents to new fine-tuning techniques, there's a lot to explore. Click through for the full breakdown and links to get started with each one.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0047",
+    "date": "2026-06-12",
+    "from": "no-reply@linkedin.com",
+    "from_name": "LinkedIn",
+    "subject": "New Zapier integration: connect 500+ apps",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0111",
+    "date": "2026-06-12",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0024",
+    "date": "2026-06-16",
+    "from": "digest@substack.com",
+    "from_name": "Substack Digest",
+    "subject": "Weekend reading: the future of AI agents",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0192",
+    "date": "2026-06-21",
+    "from": "priya.sharma@company.com",
+    "from_name": "Priya Sharma",
+    "subject": "Team lunch RSVP",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0013",
+    "date": "2026-06-25",
+    "from": "digest@substack.com",
+    "from_name": "Substack Digest",
+    "subject": "Someone viewed your profile",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0140",
+    "date": "2026-06-26",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "Your subscription renews soon",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0103",
+    "date": "2026-07-09",
+    "from": "rahul.mehta@company.com",
+    "from_name": "Rahul Mehta",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "We're rolling out a new integration this week that connects your favorite apps in just a few clicks. No code required - just authenticate and start building your first automation.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0050",
+    "date": "2026-07-10",
+    "from": "it-support@company.com",
+    "from_name": "IT Support",
+    "subject": "Company all-hands next Friday",
+    "body": "IT will be performing scheduled maintenance on the internal network this weekend. Some services may be intermittently unavailable between Saturday 10pm and Sunday 6am.",
+    "labels": [
+      "noise"
+    ]
+  },
+  {
+    "id": "email_0070",
+    "date": "2026-07-13",
+    "from": "hr@company.com",
+    "from_name": "HR Team",
+    "subject": "5 AI agent frameworks you haven't tried yet",
+    "body": "Just a friendly reminder that timesheets for this period are due by end of day Friday. Please make sure all your hours are logged correctly in the portal before the deadline.",
+    "labels": [
+      "noise"
+    ]
+  }
+]
